@@ -1,1 +1,2 @@
-Project Forty is a Vanilla modification mod which changes all vanilla themes with new ones
+Project Forty is a vanilla modification mod which plans to replace all vanilla themes with new ones
+Big thanks to AlmightyOdin for helping make coding this possible
