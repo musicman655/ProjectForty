@@ -1,0 +1,3 @@
+displayName = Project Forty
+author = Musicman
+version = 0.1
