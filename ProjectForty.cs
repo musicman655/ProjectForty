@@ -13,6 +13,8 @@ namespace ProjectForty
 				GetSoundSlot(SoundType.Music, "Sounds/Music/Night"),
 				GetSoundSlot(SoundType.Music, "Sounds/Music/Jungle"),
 				GetSoundSlot(SoundType.Music, "Sounds/Music/Cavern"),
+				GetSoundSlot(SoundType.Music, "Sounds/Music/Desert"),
+				GetSoundSlot(SoundType.Music, "Sounds/Music/Snow"),
             };
             foreach (var slot in slots) // Other mods crashing during loading can leave Main.music in a weird state.
             {
@@ -49,7 +51,17 @@ namespace ProjectForty
 					music = GetSoundSlot(SoundType.Music,"Sounds/Music/Cavern");
 					priority = MusicPriority.BiomeLow;
 				}				
-			}
+				if(player.active && player.ZoneDesert && !player.ZoneRockLayerHeight)
+				{
+					music = GetSoundSlot(SoundType.Music,"Sounds/Music/Desert)
+					priority = MusicPriority.BiomeMedium;
+				}
+				if(player.active && player.ZoneSnow && !player.ZoneRockLayerHeight)
+				{
+					music = GetSoundSlot(SoundType.Music,"Sounds/Music/Snow)
+					priority = MusicPriority.BiomeMedium;
+				}			
+			}	
 		}
 	}
 }
