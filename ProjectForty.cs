@@ -53,14 +53,14 @@ namespace ProjectForty
 				}				
 				if(player.active && player.ZoneDesert && !player.ZoneRockLayerHeight)
 				{
-					music = GetSoundSlot(SoundType.Music,"Sounds/Music/Desert)
-					priority = MusicPriority.BiomeMedium;
+					music = GetSoundSlot(SoundType.Music,"Sounds/Music/Desert");
+					priority = MusicPriority.BiomeLow;
 				}
 				if(player.active && player.ZoneSnow && !player.ZoneRockLayerHeight)
 				{
-					music = GetSoundSlot(SoundType.Music,"Sounds/Music/Snow)
+					music = GetSoundSlot(SoundType.Music,"Sounds/Music/Snow");
 					priority = MusicPriority.BiomeMedium;
-				}			
+				}						
 			}	
 		}
 	}
