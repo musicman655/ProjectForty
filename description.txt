@@ -1,2 +1,15 @@
 Project Forty is a vanilla modification mod which plans to replace all vanilla themes with new ones
 Big thanks to AlmightyOdin for helping make coding this possible
+Currently, the following themes are replaced, with more to come:
+
+Overworld Day
+Overworld Night
+Surface Jungle
+Caverns
+Surface Desert
+Surface Snow
+Surface Corruption
+Surface Crimson
+Space
+Ocean
+Underworld
