@@ -35,7 +35,7 @@ namespace ProjectForty
 					music = GetSoundSlot(SoundType.Music, "Sounds/Music/Crimson");
 					priority = MusicPriority.BiomeHigh;
 				}
-				if(player.active && player.ZoneCorrupt && !player.ZoneRockLayerHeight)
+				if(player.active && player.ZoneCorrupt && !player.ZoneRockLayerHeight && GetInstance<ProjectFortyConfig>().Corruption)
 				{
 					music = GetSoundSlot(SoundType.Music, "Sounds/Music/Corruption");
 					priority = MusicPriority.BiomeHigh;
