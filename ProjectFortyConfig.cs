@@ -63,5 +63,54 @@ namespace ProjectForty
         [Tooltip("Set this to false to disable the Underworld theme and play the vanilla counterpart")]
         public bool Underworld;
 
+        [DefaultValue(true)]
+        [Label("Enable Dungeon Theme")]
+        [Tooltip("Set this to false to disable the Dungeon theme and play the vanilla counterpart")]
+        public bool Dungeon;
+
+        [DefaultValue(true)]
+        [Label("Enable Hallow Theme")]
+        [Tooltip("Set this to false to disable the Hallow theme and play the vanilla counterpart")]
+        public bool Hallow;
+
+        [DefaultValue(true)]
+        [Label("Enable Meteorite Theme")]
+        [Tooltip("Set this to false to disable the Meteorite theme and play the vanilla counterpart")]
+        public bool Meteorite;
+
+        [DefaultValue(true)]
+        [Label("Enable Meteorite Theme")]
+        [Tooltip("Set this to false to disable the Meteorite theme and play the vanilla counterpart")]
+        public bool Mushroom;
+
+        [DefaultValue(true)]
+        [Label("Enable Underground Corruption Theme")]
+        [Tooltip("Set this to false to disable the Underground Corruption theme and play the vanilla counterpart")]
+        public bool UnderCorruption;
+
+        [DefaultValue(true)]
+        [Label("Enable Underground Crimson Theme")]
+        [Tooltip("Set this to false to disable the Underground Crimson theme and play the vanilla counterpart")]
+        public bool UnderCrimson;
+
+        [DefaultValue(true)]
+        [Label("Enable Underground Desert Theme")]
+        [Tooltip("Set this to false to disable the Underground Desert theme and play the vanilla counterpart")]
+        public bool UnderDesert;
+
+        [DefaultValue(true)]
+        [Label("Enable Underground Hallow Theme")]
+        [Tooltip("Set this to false to disable the Underground Hallow theme and play the vanilla counterpart")]
+        public bool UnderHallow;
+
+        [DefaultValue(true)]
+        [Label("Enable Underground Jungle Theme")]
+        [Tooltip("Set this to false to disable the Underground Jungle theme and play the vanilla counterpart")]
+        public bool UnderJungle;
+
+        [DefaultValue(true)]
+        [Label("Enable Underground Jungle Theme")]
+        [Tooltip("Set this to false to disable the Underground Jungle theme and play the vanilla counterpart")]
+        public bool UnderSnow;
     }
 }

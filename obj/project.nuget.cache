@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "U2Dohzgxv56eMc992//X4W3pL5txm31eugeqetN1A/9WGxGMZ004YfYTIsCD1iJ3EXNvQBuDuIRpe9kk6+MzBQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\USER\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\ProjectForty\\ProjectForty.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\tmodloader.codeassist\\0.1.1\\tmodloader.codeassist.0.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
